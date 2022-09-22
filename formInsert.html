@@ -1,0 +1,33 @@
+<html>
+<head>
+   <link rel="stylesheet" href="styles.css">
+</head
+<body>
+<h1>Input TiTle And Content
+
+<img src="web-development-computer-icon.png" height=100 width=100 align=right><br>
+</h1>
+
+<form action="insert.php" method="post">
+Title: <input type="text" name="article_title" />
+Content: <input type="text" name="article_content" /><br>
+<input type="submit" name="Submit1"/>
+<input type="reset">
+</form>
+
+<form action="update.php" method="post">
+   Title: <input type="text" name="article_title" />
+   Content: <input type="text" name="article_content" /><br>
+   <input type="submit" name="update1" value="Update"/>
+   </form>
+
+   <form action="delete.php" method="post">
+      Title: <input type="text" name="article_title" />
+      <br>
+      <input type="submit" name="delete1" value="delete"/>
+      </form>   
+
+
+<a href="display.php">show database</a>
+</body>
+</html> 
